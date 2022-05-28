@@ -1,0 +1,49 @@
+/*Button related Stylings*/
+.btn {
+  background-image: url(images/start_button_base.png);
+  width: 645px;
+  height: 210px;
+  font-size: 2em;
+  border-color: transparent;
+  background-color: transparent;
+}
+.btn:hover {
+  background-image: url(images/start_button_hover.png);
+  background-size: cover;
+}
+.btn:active {
+  background-image: url(images/start_button_click.png);
+  background-size: cover;
+}
+/*Page Related Stylings*/
+#index_body {
+  background-color: #2f2c2c;
+  background-image: url(images/cyberspace.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#index_header_plus_content {
+  margin-top: 100px;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 50px;
+  background-color: #2f2c2c;
+  border-style: dashed;
+  border-color: rgba(24, 192, 69, 0.684);
+  border-width: thick;
+  color: rgba(24, 192, 69, 0.684);
+}
+#index_content {
+  background-color: #2f2c2c;
+}
+#index_header {
+  background-color: #2f2c2c;
+}
+#index_footer {
+  margin-top: 100px;
+  text-align: left;
+  color: white;
+}
